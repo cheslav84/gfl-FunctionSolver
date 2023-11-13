@@ -1,4 +1,4 @@
-package gfl.havruliuk;
+package gfl.havruliuk.controller;
 
 import java.io.*;
 

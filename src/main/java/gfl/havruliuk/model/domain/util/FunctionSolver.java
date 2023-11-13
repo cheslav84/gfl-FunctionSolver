@@ -64,9 +64,16 @@ public class FunctionSolver {
     public void printMaxValue(double[] functionValues, int index) {
         System.out.println("Maximum of function values is " + functionValues[index]);
     }
+    public double getMaxValue(double[] functionValues, int index) {
+        return functionValues[index];
+    }
 
 
     public void printMinValue(double[] functionValues, int index) {
         System.out.println("Minimum of function values is " + functionValues[index]);
+    }
+
+    public double getMinValue(double[] functionValues, int index) {
+        return functionValues[index];
     }
 }
