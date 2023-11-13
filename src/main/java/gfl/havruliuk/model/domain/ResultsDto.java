@@ -3,6 +3,8 @@ package gfl.havruliuk.model.domain;
 import lombok.Builder;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @Builder
 public class ResultsDto {
@@ -11,12 +13,6 @@ public class ResultsDto {
     private double minValue;
     private double sumOfValues;
     private double average;
-
-
-
-    //        System.out.println("Maximum of function values is " + functionValues[index]);
-//        System.out.println("Minimum of function values is " + functionValues[index]);
-//        System.out.println("The sum of function values is " + solver.getSumOfValues(functionValuesArray));
-//        System.out.println("Average function value is " + solver.getAverage(functionValuesArray));
+    private List<Point> points;
 
 }
